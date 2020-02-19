@@ -1,7 +1,8 @@
-
+```
 pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip  
 pyinstaller nlp.spec  
 ./dist/nlp/nlp  
+```
 ```
 Traceback (most recent call last):  
   File "nlp.py", line 1, in <module>  
