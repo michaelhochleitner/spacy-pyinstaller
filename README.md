@@ -1,3 +1,7 @@
+42 INFO: PyInstaller: 4.0.dev0+a1f92c6a08
+42 INFO: Python: 3.6.9
+43 INFO: Platform: Linux-4.15.0-88-generic-x86_64-with-Ubuntu-18.04-bionic
+
 ```
 pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip  
 pyinstaller nlp.spec  
