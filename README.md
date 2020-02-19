@@ -2,7 +2,7 @@
 pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip  
 pyinstaller nlp.spec  
 ./dist/nlp/nlp  
-
+```
 Traceback (most recent call last):  
   File "nlp.py", line 1, in <module>  
     import spacy  
@@ -22,3 +22,4 @@ Traceback (most recent call last):
   File "ops.pyx", line 24, in init thinc.neural.ops  
 ImportError: cannot import name _custom_kernels  
 [16858] Failed to execute script nlp  
+```
