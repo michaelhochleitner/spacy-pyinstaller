@@ -3,6 +3,7 @@
 43 INFO: Platform: Linux-4.15.0-88-generic-x86_64-with-Ubuntu-18.04-bionic  
 
 ```
+pip install -U spacy
 pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip  
 pyinstaller nlp.spec  
 ./dist/nlp/nlp  
