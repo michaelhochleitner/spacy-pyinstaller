@@ -4,11 +4,11 @@ block_cipher = None
 
 
 a = Analysis(['nlp.py'],
-             pathex=['/home/mh/spacy-pyinstaller'],
+             pathex=['/home/spieler/spacy-pyinstaller'],
              binaries=[],
              datas=[],
-             hiddenimports=['srsly.msgpack.util','cymem','cymem.cymem','preshed.maps','thinc.linalg','murmurhash'],
-             hookspath=[],
+             hiddenimports=['srsly.msgpack.util'],
+             hookspath=['.'],
              runtime_hooks=[],
              excludes=[],
              win_no_prefer_redirects=False,
